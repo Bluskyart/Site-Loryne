@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 0.5em 1em;
+    flex-direction: row;
+}
+
+
+.logo {
+    width: 50px;
+    justify-content: flex-start;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+.section1 {
+    display: flex;
+    padding-top: 50px;
+}
+.section2 {
+    display: flex;
+}
+
+.illu {
+    background-size: contain;
+    width: 250px;
+    height: 150px;
+    border-radius: 5%;
+    padding: 5px;
+}
